@@ -1,4 +1,4 @@
-# Nitin Shukla - AI-Driven Computational Biologist Portfolio
+# Nitin Shukla - Portfolio
 
 A modern, interactive React-based portfolio website showcasing my journey from traditional bioinformatics to AI-driven computational biology.
 
@@ -76,7 +76,6 @@ github-page/
 
 **Nitin Shukla**
 - Email: nitinshukla1912@gmail.com
-- Phone: +91-7984243353
 - Location: Gandhinagar, Gujarat, India
 
 ---
