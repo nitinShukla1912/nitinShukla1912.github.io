@@ -15,6 +15,8 @@ const getBadgeColor = (journal) => {
     'BMC genomics': '#0891b2',
     'Molecular biology and evolution': '#ec4899',
     'Frontiers in Physiology': '#14b8a6',
+    'npj Emerging Contaminants': '#0ea5e9',
+    'PLOS Global Public Health': '#a855f7',
   };
   return colors[journal] || '#6b7280';
 };
@@ -33,6 +35,8 @@ const getBadgeLabel = (journal) => {
     'BMC genomics': 'BMC Genomics',
     'Preprint': 'Preprint',
     'Agriculture': 'Agriculture',
+    'npj Emerging Contaminants': 'npj Emerg Contam',
+    'PLOS Global Public Health': 'PLOS Glob Public Health',
   };
   return labels[journal] || journal;
 };
