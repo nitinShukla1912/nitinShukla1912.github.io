@@ -1,63 +1,6 @@
-// Publications data converted from citations.bib
-// Al-folio style with preview images and BibTeX entries
+// Publications data converted from citations.bib// Al-folio style with preview images and BibTeX entries
 
-const publicationsBib = [
-    
-    {
-    id: 'bhure2026vibrio',
-    title: 'Genome-wide investigation of outbreak-associated Vibrio cholerae in Gujarat, India identifies antimicrobial resistance genes, virulence determinants, and mobile genetic elements',
-    authors: 'Minal Bhure, Nitin Shukla, Harshal Purohit, Nimesh Patel, Priyank Chavda, Madhulika Mistry, Hitesh Shingala, Bhavin Solanki, Chirag Shah, Madhvi Joshi, and others',
-    journal: 'Frontiers in Microbiology',
-    volume: '17',
-    pages: '1851551',
-    year: 2026,
-    publisher: 'Frontiers',
-    preview: '/images/publications/frontiers-microbiology-preview.png',
-    bibtex: `@article{bhure17genome,
-  title={Genome-wide investigation of outbreak-associated Vibrio cholerae in Gujarat, India identifies antimicrobial resistance genes, virulence determinants, and mobile genetic elements},
-  author={Bhure, Minal and Shukla, Nitin and Purohit, Harshal and Patel, Nimesh and Chavda, Priyank and Mistry, Madhulika and Shingala, Hitesh and Solanki, Bhavin and Shah, Chirag and Joshi, Madhvi and others},
-  journal={Frontiers in Microbiology},
-  volume={17},
-  pages={1851551},
-  year={2026},
-  publisher={Frontiers}
-}`
-}, 
-   
-    {
-    id: 'shukla2026genomic',
-    title: 'Genomic and evolutionary characterization of Chandipura virus: a cause of the 2024 outbreak in Gujarat, India',
-    authors: 'Nitin Shukla, Urvi Budhbhatti, Apurvasinh Puvar, Ishan Raval, Ramesh Pandit, Priyank Chavda, Anita Chauhan, Dhwani Jhala, Dhruvi Shah, Tejas Shah, and others',
-    journal: 'Microbiology Spectrum',
-    volume: '14',
-    number: '5',
-    pages: 'e01578-25',
-    year: 2026,
-    publisher: 'American Society for Microbiology',
-    preview: '/images/publications/microbiology-spectrum-preview.png',
-    bibtex: `@article{shukla2026genomic,
-  title={Genomic and evolutionary characterization of Chandipura virus: a cause of the 2024 outbreak in Gujarat, India},
-  author={Shukla, Nitin and Budhbhatti, Urvi and Puvar, Apurvasinh and Raval, Ishan and Pandit, Ramesh and Chavda, Priyank and Chauhan, Anita and Jhala, Dhwani and Shah, Dhruvi and Shah, Tejas and others},
-  journal={Microbiology Spectrum},
-  volume={14},
-  number={5},
-  pages={e01578--25},
-  year={2026},
-  publisher={American Society for Microbiology}
-}`
-},
-    {
-        id: 'shukla2026longitudinal',
-        title: 'Longitudinal wastewater virome surveillance unveils untapped circulating viruses in the community',
-        authors: 'Nitin Shukla, Jinal Thakor, Priyank Chavda, Harshal Purohit, Harshil Patel, Saurabh Thakar, Aesha Raval, Jinal Prajapati, Jay Solanki, Deeparati Datta, Harshita Karri, Abhijeet Mondal, Niraj Kumar Singh, Snehal Bagatharia, Chaitanya Joshi, Madhvi Joshi, Chandrashekar Mootapally, Varun Shah, Ramesh Pandit',
-        journal: 'npj Emerging Contaminants',
-        volume: '2',
-        number: '1',
-        year: 2026,
-        publisher: 'Springer Nature',
-        url: 'https://doi.org/10.1038/s44454-026-00035-3',
-        preview: '/images/publications/npj-emerging-contaminants-preview.png',
-        bibtex: `@article{shukla2026longitudinal,
+const publicationsBib = [{id: 'shukla2026longitudinal',title: 'Longitudinal wastewater virome surveillance unveils untapped circulating viruses in the community',authors: 'Nitin Shukla, Jinal Thakor, Priyank Chavda, Harshal Purohit, Harshil Patel, Saurabh Thakar, Aesha Raval, Jinal Prajapati, Jay Solanki, Deeparati Datta, Harshita Karri, Abhijeet Mondal, Niraj Kumar Singh, Snehal Bagatharia, Chaitanya Joshi, Madhvi Joshi, Chandrashekar Mootapally, Varun Shah, Ramesh Pandit',journal: 'npj Emerging Contaminants',volume: '2',number: '1',year: 2026,publisher: 'Springer Nature',url: 'https://doi.org/10.1038/s44454-026-00035-3',preview: '/images/publications/npj-emerging-contaminants-preview.png',bibtex: @article{shukla2026longitudinal,
   title={Longitudinal wastewater virome surveillance unveils untapped circulating viruses in the community},
   author={Shukla, Nitin and Thakor, Jinal and Chavda, Priyank and Purohit, Harshal and Patel, Harshil and Thakar, Saurabh and Raval, Aesha and Prajapati, Jinal and Solanki, Jay and Datta, Deeparati and Karri, Harshita and Mondal, Abhijeet and Singh, Niraj Kumar and Bagatharia, Snehal and Joshi, Chaitanya and Joshi, Madhvi and Mootapally, Chandrashekar and Shah, Varun and Pandit, Ramesh},
   journal={npj Emerging Contaminants},
@@ -66,20 +9,7 @@ const publicationsBib = [
   year={2026},
   publisher={Springer Nature},
   doi={10.1038/s44454-026-00035-3}
-}`
-    },
-    {
-        id: 'smith2026community',
-        title: 'Community-led standards for global wastewater-based infectious disease surveillance',
-        authors: 'Emily A. Smith, Maryam Ahmadi Jeshvaghane, Dylan A. Pilz, Mercury Shitindo, João Costa da Silva, Lance Gable, Keaghan Brown, Tracey Calvert-Joshua, Farzaana Diedericks, Gültekin Ünal, Jillian S. Paull, Nitin B. Shukla, Zeenatuddeen Muhammad, Justice Ohene Amofa, Elyssa Jiawen Liu, Emma J. Griffiths, Chrystal Landgraff, Fatma Z. Guerfali, Nicki Tiffin, Joshua I. Levy',
-        journal: 'PLOS Global Public Health',
-        volume: '6',
-        pages: 'e0006266',
-        year: 2026,
-        publisher: 'Public Library of Science',
-        url: 'https://doi.org/10.1371/journal.pgph.0006266',
-        preview: '/images/publications/plos-gph-preview.png',
-        bibtex: `@article{smith2026community,
+}},{id: 'smith2026community',title: 'Community-led standards for global wastewater-based infectious disease surveillance',authors: 'Emily A. Smith, Maryam Ahmadi Jeshvaghane, Dylan A. Pilz, Mercury Shitindo, João Costa da Silva, Lance Gable, Keaghan Brown, Tracey Calvert-Joshua, Farzaana Diedericks, Gültekin Ünal, Jillian S. Paull, Nitin B. Shukla, Zeenatuddeen Muhammad, Justice Ohene Amofa, Elyssa Jiawen Liu, Emma J. Griffiths, Chrystal Landgraff, Fatma Z. Guerfali, Nicki Tiffin, Joshua I. Levy',journal: 'PLOS Global Public Health',volume: '6',pages: 'e0006266',year: 2026,publisher: 'Public Library of Science',url: 'https://doi.org/10.1371/journal.pgph.0006266',preview: '/images/publications/plos-gph-preview.png',bibtex: @article{smith2026community,
   title={Community-led standards for global wastewater-based infectious disease surveillance},
   author={Smith, Emily A. and Ahmadi Jeshvaghane, Maryam and Pilz, Dylan A. and Shitindo, Mercury and Costa da Silva, João and Gable, Lance and Brown, Keaghan and Calvert-Joshua, Tracey and Diedericks, Farzaana and Ünal, Gültekin and Paull, Jillian S. and Shukla, Nitin B. and Muhammad, Zeenatuddeen and Amofa, Justice Ohene and Liu, Elyssa Jiawen and Griffiths, Emma J. and Landgraff, Chrystal and Guerfali, Fatma Z. and Tiffin, Nicki and Levy, Joshua I.},
   journal={PLOS Global Public Health},
@@ -88,20 +18,7 @@ const publicationsBib = [
   year={2026},
   publisher={Public Library of Science},
   doi={10.1371/journal.pgph.0006266}
-}`
-    },
-    {
-        id: 'shukla2026chandipura',
-        title: 'Whole-genome sequencing and comparative genomic analysis of Chandipura virus isolated from a pediatric patient during the 2024 outbreak in Gujarat, India',
-        authors: 'Nitin Shukla, Urvi Budhbhatti, Apurvasinh Puvar, Ishan Raval, Ramesh Pandit, Priyank Chavda, Anita Chauhan, Dhwani Jhala, Dhruvi Shah, Tejas Shah, Janvi Raval, Harshad Prajapati, Nilam Patel, Kamlesh Upadhyay, Madhvi Joshi, Amrutlal K. Patel, Vijay Bondre, Naveen Kumar, Chaitanya Joshi',
-        journal: 'Microbiology Spectrum',
-        volume: '14',
-        number: '5',
-        year: 2026,
-        publisher: 'American Society for Microbiology',
-        url: 'https://doi.org/10.1128/spectrum.01578-25',
-        preview: '/images/publications/microbiology-spectrum-preview.png',
-        bibtex: `@article{shukla2026chandipura,
+}},{id: 'shukla2026chandipura',title: 'Whole-genome sequencing and comparative genomic analysis of Chandipura virus isolated from a pediatric patient during the 2024 outbreak in Gujarat, India',authors: 'Nitin Shukla, Urvi Budhbhatti, Apurvasinh Puvar, Ishan Raval, Ramesh Pandit, Priyank Chavda, Anita Chauhan, Dhwani Jhala, Dhruvi Shah, Tejas Shah, Janvi Raval, Harshad Prajapati, Nilam Patel, Kamlesh Upadhyay, Madhvi Joshi, Amrutlal K. Patel, Vijay Bondre, Naveen Kumar, Chaitanya Joshi',journal: 'Microbiology Spectrum',volume: '14',number: '5',year: 2026,publisher: 'American Society for Microbiology',url: 'https://doi.org/10.1128/spectrum.01578-25',preview: '/images/publications/microbiology-spectrum-preview.png',bibtex: @article{shukla2026chandipura,
   title={Whole-genome sequencing and comparative genomic analysis of Chandipura virus isolated from a pediatric patient during the 2024 outbreak in Gujarat, India},
   author={Shukla, Nitin and Budhbhatti, Urvi and Puvar, Apurvasinh and Raval, Ishan and Pandit, Ramesh and Chavda, Priyank and Chauhan, Anita and Jhala, Dhwani and Shah, Dhruvi and Shah, Tejas and Raval, Janvi and Prajapati, Harshad and Patel, Nilam and Upadhyay, Kamlesh and Joshi, Madhvi and Patel, Amrutlal K. and Bondre, Vijay and Kumar, Naveen and Joshi, Chaitanya},
   journal={Microbiology Spectrum},
@@ -110,21 +27,7 @@ const publicationsBib = [
   year={2026},
   publisher={American Society for Microbiology},
   doi={10.1128/spectrum.01578-25}
-}`
-    },
-    {
-        id: 'panchal2026microbial',
-        title: 'Microbial and Metabolite Profiling Reveal the Composition of Beejamrit: A Bioformulation for Seed Treatment in Sustainable Agriculture',
-        authors: 'Devarsh Panchal, Kartik Gajjar, Mahendra Chaudhary, Doongar Chaudhary, CK Patel, Nitin Shukla, Ishan Raval, Snehal Bagatharia, Chaitanya Joshi, Amrutlal Patel, and others',
-        journal: 'Agriculture',
-        volume: '16',
-        number: '1',
-        pages: '133',
-        year: 2026,
-        publisher: 'MDPI',
-        url: 'https://doi.org/10.3390/agriculture16010133',
-        preview: '/images/publications/agriculture-preview.png',
-        bibtex: `@article{panchal2026microbial,
+}},{id: 'panchal2026microbial',title: 'Microbial and Metabolite Profiling Reveal the Composition of Beejamrit: A Bioformulation for Seed Treatment in Sustainable Agriculture',authors: 'Devarsh Panchal, Kartik Gajjar, Mahendra Chaudhary, Doongar Chaudhary, CK Patel, Nitin Shukla, Ishan Raval, Snehal Bagatharia, Chaitanya Joshi, Amrutlal Patel, and others',journal: 'Agriculture',volume: '16',number: '1',pages: '133',year: 2026,publisher: 'MDPI',url: 'https://doi.org/10.3390/agriculture16010133',preview: '/images/publications/agriculture-preview.png',bibtex: @article{panchal2026microbial,
   title={Microbial and Metabolite Profiling Reveal the Composition of Beejamrit: A Bioformulation for Seed Treatment in Sustainable Agriculture},
   author={Panchal, Devarsh and Gajjar, Kartik and Chaudhary, Mahendra and Chaudhary, Doongar and Patel, CK and Shukla, Nitin and Raval, Ishan and Bagatharia, Snehal and Joshi, Chaitanya and Patel, Amrutlal and others},
   journal={Agriculture},
@@ -133,53 +36,18 @@ const publicationsBib = [
   pages={133},
   year={2026},
   publisher={MDPI}
-}`
-    },
-    {
-        id: 'shukla2025towards',
-        title: 'Towards a Comprehensive Wastewater Virome Atlas for Pathogen Monitoring',
-        authors: 'Nitin Shukla, Jinal Thakor, Priyank Chavda, Harshal Purohit, Harshil Patel, Saurabh Thakar, Aesha Raval, Jinal Prajapati, Jay Solanki, Deeparati Datta, and others',
-        journal: 'Preprint',
-        year: 2025,
-        url: 'https://www.biorxiv.org/',
-        preview: '/images/publications/preprint-preview.png',
-        bibtex: `@article{shukla2025towards,
+}},{id: 'shukla2025towards',title: 'Towards a Comprehensive Wastewater Virome Atlas for Pathogen Monitoring',authors: 'Nitin Shukla, Jinal Thakor, Priyank Chavda, Harshal Purohit, Harshil Patel, Saurabh Thakar, Aesha Raval, Jinal Prajapati, Jay Solanki, Deeparati Datta, and others',journal: 'Preprint',year: 2025,url: 'https://www.biorxiv.org/',preview: '/images/publications/preprint-preview.png',bibtex: @article{shukla2025towards,
   title={Towards a Comprehensive Wastewater Virome Atlas for Pathogen Monitoring},
   author={Shukla, Nitin and Thakor, Jinal and Chavda, Priyank and Purohit, Harshal and Patel, Harshil and Thakar, Saurabh and Raval, Aesha and Prajapati, Jinal and Solanki, Jay and Datta, Deeparati and others},
   year={2025}
-}`
-    },
-    {
-        id: 'akshay2025comprehensive',
-        title: 'Comprehensive analysis of extensive drug-resistant Salmonella Typhi in Gujarat region, India: genomic findings and prospective alternative therapy',
-        authors: 'Sadanand Dangari Akshay, Heli Upadhyaya, Nitin Shukla, Rohit Bhattacharjee, Sunilkumar Das, Urmi Vyas, Priyank Chavda, Nimesh Patel, Dixsha Jamkhandi, Pritesh Sabara, and others',
-        journal: 'Microbiology Spectrum',
-        pages: 'e02540--24',
-        year: 2025,
-        publisher: 'American Society for Microbiology',
-        url: 'https://journals.asm.org/journal/spectrum',
-        preview: '/images/publications/microbiology-spectrum-preview.png',
-        bibtex: `@article{akshay2025comprehensive,
+}},{id: 'akshay2025comprehensive',title: 'Comprehensive analysis of extensive drug-resistant Salmonella Typhi in Gujarat region, India: genomic findings and prospective alternative therapy',authors: 'Sadanand Dangari Akshay, Heli Upadhyaya, Nitin Shukla, Rohit Bhattacharjee, Sunilkumar Das, Urmi Vyas, Priyank Chavda, Nimesh Patel, Dixsha Jamkhandi, Pritesh Sabara, and others',journal: 'Microbiology Spectrum',pages: 'e02540--24',year: 2025,publisher: 'American Society for Microbiology',url: 'https://journals.asm.org/journal/spectrum',preview: '/images/publications/microbiology-spectrum-preview.png',bibtex: @article{akshay2025comprehensive,
   title={Comprehensive analysis of extensive drug-resistant Salmonella Typhi in Gujarat region, India: genomic findings and prospective alternative therapy},
   author={Akshay, Sadanand Dangari and Upadhyaya, Heli and Shukla, Nitin and Bhattacharjee, Rohit and Das, Sunilkumar and Vyas, Urmi and Chavda, Priyank and Patel, Nimesh and Jamkhandi, Dixsha and Sabara, Pritesh and others},
   journal={Microbiology Spectrum},
   pages={e02540--24},
   year={2025},
   publisher={American Society for Microbiology 1752 N St., NW, Washington, DC}
-}`
-    },
-    {
-        id: 'nehra2025ruminal',
-        title: 'Ruminal microbial responses to Moringa oleifera feed in lactating goats (Capra hircus): A metagenomic exploration',
-        authors: 'Chitra Nehra, Vemula Harshini, Nitin Shukla, Priyank Chavda, Minal Bhure, Kaksha Savaliya, Sonal Patil, Tejas Shah, Ramesh Pandit, Niteen V Patil, and others',
-        journal: 'New Biotechnology',
-        volume: '86',
-        pages: '87--96',
-        year: 2025,
-        publisher: 'Elsevier',
-        url: 'https://doi.org/10.1016/j.nbt.2025.01.003',
-        preview: '/images/publications/new-biotech-preview.png',
-        bibtex: `@article{nehra2025ruminal,
+}},{id: 'nehra2025ruminal',title: 'Ruminal microbial responses to Moringa oleifera feed in lactating goats (Capra hircus): A metagenomic exploration',authors: 'Chitra Nehra, Vemula Harshini, Nitin Shukla, Priyank Chavda, Minal Bhure, Kaksha Savaliya, Sonal Patil, Tejas Shah, Ramesh Pandit, Niteen V Patil, and others',journal: 'New Biotechnology',volume: '86',pages: '87--96',year: 2025,publisher: 'Elsevier',url: 'https://doi.org/10.1016/j.nbt.2025.01.003',preview: '/images/publications/new-biotech-preview.png',bibtex: @article{nehra2025ruminal,
   title={Ruminal microbial responses to Moringa oleifera feed in lactating goats (Capra hircus): A metagenomic exploration},
   author={Nehra, Chitra and Harshini, Vemula and Shukla, Nitin and Chavda, Priyank and Bhure, Minal and Savaliya, Kaksha and Patil, Sonal and Shah, Tejas and Pandit, Ramesh and Patil, Niteen V and others},
   journal={New Biotechnology},
@@ -187,21 +55,7 @@ const publicationsBib = [
   pages={87--96},
   year={2025},
   publisher={Elsevier}
-}`
-    },
-    {
-        id: 'nehra2024moringa',
-        title: 'Moringa leaf meal exerts growth benefits in small ruminants through modulating the gastrointestinal microbiome',
-        authors: 'Chitra Nehra, Vemula Harshini, Nitin Shukla, Priyank Chavda, Kaksha Savaliya, Sonal Patil, Tejas Shah, Ramesh Pandit, Niteen V Patil, Ashutosh K Patel, and others',
-        journal: 'Applied Microbiology and Biotechnology',
-        volume: '108',
-        number: '1',
-        pages: '438',
-        year: 2024,
-        publisher: 'Springer Berlin Heidelberg',
-        url: 'https://doi.org/10.1007/s00253-024-13239-8',
-        preview: '/images/publications/applied-micro-preview.png',
-        bibtex: `@article{nehra2024moringa,
+}},{id: 'nehra2024moringa',title: 'Moringa leaf meal exerts growth benefits in small ruminants through modulating the gastrointestinal microbiome',authors: 'Chitra Nehra, Vemula Harshini, Nitin Shukla, Priyank Chavda, Kaksha Savaliya, Sonal Patil, Tejas Shah, Ramesh Pandit, Niteen V Patil, Ashutosh K Patel, and others',journal: 'Applied Microbiology and Biotechnology',volume: '108',number: '1',pages: '438',year: 2024,publisher: 'Springer Berlin Heidelberg',url: 'https://doi.org/10.1007/s00253-024-13239-8',preview: '/images/publications/applied-micro-preview.png',bibtex: @article{nehra2024moringa,
   title={Moringa leaf meal exerts growth benefits in small ruminants through modulating the gastrointestinal microbiome},
   author={Nehra, Chitra and Harshini, Vemula and Shukla, Nitin and Chavda, Priyank and Savaliya, Kaksha and Patil, Sonal and Shah, Tejas and Pandit, Ramesh and Patil, Niteen V and Patel, Ashutosh K and others},
   journal={Applied Microbiology and Biotechnology},
@@ -210,21 +64,7 @@ const publicationsBib = [
   pages={438},
   year={2024},
   publisher={Springer Berlin Heidelberg Berlin/Heidelberg}
-}`
-    },
-    {
-        id: 'shukla2024lncrna',
-        title: 'lncRNA-miRNA-mRNA network in kidney transcriptome of Labeo rohita under hypersaline environment',
-        authors: 'Nitin Shukla, Vemula Harshini, Ishan Raval, Amrutlal K Patel, Chaitanya G Joshi',
-        journal: 'Scientific Data',
-        volume: '11',
-        number: '1',
-        pages: '226',
-        year: 2024,
-        publisher: 'Nature Publishing Group UK London',
-        url: 'https://doi.org/10.1038/s41597-024-03034-1',
-        preview: '/images/publications/scientific-data-preview.png',
-        bibtex: `@article{shukla2024lncrna,
+}},{id: 'shukla2024lncrna',title: 'lncRNA-miRNA-mRNA network in kidney transcriptome of Labeo rohita under hypersaline environment',authors: 'Nitin Shukla, Vemula Harshini, Ishan Raval, Amrutlal K Patel, Chaitanya G Joshi',journal: 'Scientific Data',volume: '11',number: '1',pages: '226',year: 2024,publisher: 'Nature Publishing Group UK London',url: 'https://doi.org/10.1038/s41597-024-03034-1',preview: '/images/publications/scientific-data-preview.png',bibtex: @article{shukla2024lncrna,
   title={lncRNA-miRNA-mRNA network in kidney transcriptome of Labeo rohita under hypersaline environment},
   author={Shukla, Nitin and Harshini, Vemula and Raval, Ishan and Patel, Amrutlal K and Joshi, Chaitanya G},
   journal={Scientific Data},
@@ -233,20 +73,7 @@ const publicationsBib = [
   pages={226},
   year={2024},
   publisher={Nature Publishing Group UK London}
-}`
-    },
-    {
-        id: 'dharajiya2023resistant',
-        title: 'Resistant cumin cultivar, GC-4 counters Fusarium oxysporum f. sp. cumini infection through up-regulation of steroid biosynthesis, limonene and pinene degradation and butanoate metabolism pathways',
-        authors: 'Darshan T Dharajiya, Nitin Shukla, Maharshi Pandya, Madhvi Joshi, Amrutlal K Patel, Chaitanya G Joshi',
-        journal: 'Frontiers in Plant Science',
-        volume: '14',
-        pages: '1204828',
-        year: 2023,
-        publisher: 'Frontiers',
-        url: 'https://doi.org/10.3389/fpls.2023.1204828',
-        preview: '/images/publications/frontiers-plant-preview.png',
-        bibtex: `@article{dharajiya2023resistant,
+}},{id: 'dharajiya2023resistant',title: 'Resistant cumin cultivar, GC-4 counters Fusarium oxysporum f. sp. cumini infection through up-regulation of steroid biosynthesis, limonene and pinene degradation and butanoate metabolism pathways',authors: 'Darshan T Dharajiya, Nitin Shukla, Maharshi Pandya, Madhvi Joshi, Amrutlal K Patel, Chaitanya G Joshi',journal: 'Frontiers in Plant Science',volume: '14',pages: '1204828',year: 2023,publisher: 'Frontiers',url: 'https://doi.org/10.3389/fpls.2023.1204828',preview: '/images/publications/frontiers-plant-preview.png',bibtex: @article{dharajiya2023resistant,
   title={Resistant cumin cultivar, GC-4 counters Fusarium oxysporum f. sp. cumini infection through up-regulation of steroid biosynthesis, limonene and pinene degradation and butanoate metabolism pathways},
   author={Dharajiya, Darshan T and Shukla, Nitin and Pandya, Maharshi and Joshi, Madhvi and Patel, Amrutlal K and Joshi, Chaitanya G},
   journal={Frontiers in Plant Science},
@@ -254,20 +81,7 @@ const publicationsBib = [
   pages={1204828},
   year={2023},
   publisher={Frontiers}
-}`
-    },
-    {
-        id: 'shukla2023integrative',
-        title: 'Integrative miRNA-mRNA network analysis to identify crucial pathways of salinity adaptation in brain transcriptome of Labeo rohita',
-        authors: 'Nitin Shukla, Vemula Harshini, Ishan Raval, Sujit Kumar, Vivek Shrivastava, Aparna Chaudhari, Amrutlal K Patel, Chaitanya G Joshi',
-        journal: 'Frontiers in Genetics',
-        volume: '14',
-        pages: '1209843',
-        year: 2023,
-        publisher: 'Frontiers',
-        url: 'https://doi.org/10.3389/fgene.2023.1209843',
-        preview: '/images/publications/frontiers-genetics-preview.png',
-        bibtex: `@article{shukla2023integrative,
+}},{id: 'shukla2023integrative',title: 'Integrative miRNA-mRNA network analysis to identify crucial pathways of salinity adaptation in brain transcriptome of Labeo rohita',authors: 'Nitin Shukla, Vemula Harshini, Ishan Raval, Sujit Kumar, Vivek Shrivastava, Aparna Chaudhari, Amrutlal K Patel, Chaitanya G Joshi',journal: 'Frontiers in Genetics',volume: '14',pages: '1209843',year: 2023,publisher: 'Frontiers',url: 'https://doi.org/10.3389/fgene.2023.1209843',preview: '/images/publications/frontiers-genetics-preview.png',bibtex: @article{shukla2023integrative,
   title={Integrative miRNA-mRNA network analysis to identify crucial pathways of salinity adaptation in brain transcriptome of Labeo rohita},
   author={Shukla, Nitin and Vemula, Harshini and Raval, Ishan and Kumar, Sujit and Shrivastava, Vivek and Chaudhari, Aparna and Patel, Amrutlal K and Joshi, Chaitanya G},
   journal={Frontiers in Genetics},
@@ -275,21 +89,7 @@ const publicationsBib = [
   pages={1209843},
   year={2023},
   publisher={Frontiers}
-}`
-    },
-    {
-        id: 'harshini2023interplay',
-        title: 'Interplay of gene expression and regulators under salinity stress in gill of Labeo rohita',
-        authors: 'Vemula Harshini, Nitin Shukla, Ishan Raval, Sujit Kumar, Vivek Shrivastava, Aparna Chaudhari, Amrutlal K Patel, Chaitanya G Joshi',
-        journal: 'BMC genomics',
-        volume: '24',
-        number: '1',
-        pages: '336',
-        year: 2023,
-        publisher: 'BioMed Central London',
-        url: 'https://doi.org/10.1186/s12864-023-09443-3',
-        preview: '/images/publications/bmc-genomics-preview.png',
-        bibtex: `@article{harshini2023interplay,
+}},{id: 'harshini2023interplay',title: 'Interplay of gene expression and regulators under salinity stress in gill of Labeo rohita',authors: 'Vemula Harshini, Nitin Shukla, Ishan Raval, Sujit Kumar, Vivek Shrivastava, Aparna Chaudhari, Amrutlal K Patel, Chaitanya G Joshi',journal: 'BMC genomics',volume: '24',number: '1',pages: '336',year: 2023,publisher: 'BioMed Central London',url: 'https://doi.org/10.1186/s12864-023-09443-3',preview: '/images/publications/bmc-genomics-preview.png',bibtex: @article{harshini2023interplay,
   title={Interplay of gene expression and regulators under salinity stress in gill of Labeo rohita},
   author={Harshini, Vemula and Shukla, Nitin and Raval, Ishan and Kumar, Sujit and Shrivastava, Vivek and Chaudhari, Aparna and Patel, Amrutlal K and Joshi, Chaitanya G},
   journal={BMC genomics},
@@ -298,21 +98,7 @@ const publicationsBib = [
   pages={336},
   year={2023},
   publisher={BioMed Central London}
-}`
-    },
-    {
-        id: 'chander2022resistance',
-        title: 'Resistance evolution against host-directed antiviral agents: Buffalopox virus switches to use p38-γ under long-term selective pressure of an inhibitor targeting p38-α',
-        authors: 'Yogesh Chander, Ram Kumar, Assim Verma, Nitin Shukla, Himanshu Nagori, Namita Singh, Shalini Sharma, Yash Pal, Apurvasinh Puvar, Rameshchandra Pandit, and others',
-        journal: 'Molecular biology and evolution',
-        volume: '39',
-        number: '9',
-        pages: 'msac177',
-        year: 2022,
-        publisher: 'Oxford University Press',
-        url: 'https://doi.org/10.1093/molbev/msac177',
-        preview: '/images/publications/mol-bio-evo-preview.png',
-        bibtex: `@article{chander2022resistance,
+}},{id: 'chander2022resistance',title: 'Resistance evolution against host-directed antiviral agents: Buffalopox virus switches to use p38-γ under long-term selective pressure of an inhibitor targeting p38-α',authors: 'Yogesh Chander, Ram Kumar, Assim Verma, Nitin Shukla, Himanshu Nagori, Namita Singh, Shalini Sharma, Yash Pal, Apurvasinh Puvar, Rameshchandra Pandit, and others',journal: 'Molecular biology and evolution',volume: '39',number: '9',pages: 'msac177',year: 2022,publisher: 'Oxford University Press',url: 'https://doi.org/10.1093/molbev/msac177',preview: '/images/publications/mol-bio-evo-preview.png',bibtex: @article{chander2022resistance,
   title={Resistance evolution against host-directed antiviral agents: Buffalopox virus switches to use p38-$\\Upsilon$ under long-term selective pressure of an inhibitor targeting p38-$\\alpha$},
   author={Chander, Yogesh and Kumar, Ram and Verma, Assim and Khandelwal, Nitin and Nagori, Himanshu and Singh, Namita and Sharma, Shalini and Pal, Yash and Puvar, Apurvasinh and Pandit, Rameshchandra and others},
   journal={Molecular biology and evolution},
@@ -321,20 +107,7 @@ const publicationsBib = [
   pages={msac177},
   year={2022},
   publisher={Oxford University Press}
-}`
-    },
-    {
-        id: 'harshini2022kidney',
-        title: 'Kidney transcriptome response to salinity adaptation in Labeo rohita',
-        authors: 'Vemula Harshini, Nitin Shukla, Ishan Raval, Sujit Kumar, Vivek Shrivastava, Amrutlal K Patel, Chaitanya G Joshi',
-        journal: 'Frontiers in Physiology',
-        volume: '13',
-        pages: '991366',
-        year: 2022,
-        publisher: 'Frontiers Media SA',
-        url: 'https://doi.org/10.3389/fphys.2022.991366',
-        preview: '/images/publications/frontiers-physio-preview.png',
-        bibtex: `@article{harshini2022kidney,
+}},{id: 'harshini2022kidney',title: 'Kidney transcriptome response to salinity adaptation in Labeo rohita',authors: 'Vemula Harshini, Nitin Shukla, Ishan Raval, Sujit Kumar, Vivek Shrivastava, Amrutlal K Patel, Chaitanya G Joshi',journal: 'Frontiers in Physiology',volume: '13',pages: '991366',year: 2022,publisher: 'Frontiers Media SA',url: 'https://doi.org/10.3389/fphys.2022.991366',preview: '/images/publications/frontiers-physio-preview.png',bibtex: @article{harshini2022kidney,
   title={Kidney transcriptome response to salinity adaptation in Labeo rohita},
   author={Harshini, Vemula and Shukla, Nitin and Raval, Ishan and Kumar, Sujit and Shrivastava, Vivek and Patel, Amrutlal K and Joshi, Chaitanya G},
   journal={Frontiers in Physiology},
@@ -342,8 +115,6 @@ const publicationsBib = [
   pages={991366},
   year={2022},
   publisher={Frontiers Media SA}
-}`
-    }
-];
+}}];
 
 export default publicationsBib;
