@@ -1,8 +1,8 @@
-# Nitin Shukla - Portfolio
+# Nitin Shukla
 
 A modern, interactive React-based portfolio website showcasing my journey from traditional bioinformatics to AI-driven computational biology.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework**: React 18+ with Vite
 - **Styling**: Tailwind CSS
@@ -10,7 +10,7 @@ A modern, interactive React-based portfolio website showcasing my journey from t
 - **Icons**: React Icons
 - **Deployment**: GitHub Pages
 
-## 📦 Installation
+## Installation
 
 ```bash
 # Install dependencies
@@ -30,7 +30,7 @@ npm run preview
 
 Edit `tailwind.config.js` to modify the color scheme.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 github-page/
@@ -44,7 +44,7 @@ github-page/
 └── package.json           # Dependencies
 ```
 
-## 📧 Contact
+## Contact
 
 **Nitin Shukla**
 - Email: nitinshukla1912@gmail.com
