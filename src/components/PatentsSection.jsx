@@ -5,7 +5,7 @@ const PatentsSection = () => {
     {
       title: "A cost-effective targeted Next-Generation Sequencing method and kit for High-Resolution HLA Typing using Adapter-Tagged amplicons",
       status: "Submitted",
-      year: "2024",
+      year: "2025",
       description: "Patent application for innovative HLA typing technology that provides high-resolution results at significantly reduced costs."
     }
   ];
