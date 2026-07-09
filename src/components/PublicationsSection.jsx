@@ -16,8 +16,7 @@ const getBadgeColor = (journal) => {
     'Molecular biology and evolution': '#ec4899',
     'Frontiers in Physiology': '#14b8a6',
     'npj Emerging Contaminants': '#0ea5e9',
-    'PLOS Global Public Health': '#a855f7',
-    'Frontiers in Microbiology' : '#00823f',
+    'PLOS Global Public Health': '#a855f7'
   };
   return colors[journal] || '#6b7280';
 };
