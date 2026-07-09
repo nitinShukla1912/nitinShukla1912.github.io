@@ -2,6 +2,50 @@
 // Al-folio style with preview images and BibTeX entries
 
 const publicationsBib = [
+    
+    {
+    id: 'bhure2026vibrio',
+    title: 'Genome-wide investigation of outbreak-associated Vibrio cholerae in Gujarat, India identifies antimicrobial resistance genes, virulence determinants, and mobile genetic elements',
+    authors: 'Minal Bhure, Nitin Shukla, Harshal Purohit, Nimesh Patel, Priyank Chavda, Madhulika Mistry, Hitesh Shingala, Bhavin Solanki, Chirag Shah, Madhvi Joshi, and others',
+    journal: 'Frontiers in Microbiology',
+    volume: '17',
+    pages: '1851551',
+    year: 2026,
+    publisher: 'Frontiers',
+    preview: '/images/publications/frontiers-microbiology-preview.png',
+    bibtex: `@article{bhure17genome,
+  title={Genome-wide investigation of outbreak-associated Vibrio cholerae in Gujarat, India identifies antimicrobial resistance genes, virulence determinants, and mobile genetic elements},
+  author={Bhure, Minal and Shukla, Nitin and Purohit, Harshal and Patel, Nimesh and Chavda, Priyank and Mistry, Madhulika and Shingala, Hitesh and Solanki, Bhavin and Shah, Chirag and Joshi, Madhvi and others},
+  journal={Frontiers in Microbiology},
+  volume={17},
+  pages={1851551},
+  year={2026},
+  publisher={Frontiers}
+}`
+}, 
+   
+    {
+    id: 'shukla2026genomic',
+    title: 'Genomic and evolutionary characterization of Chandipura virus: a cause of the 2024 outbreak in Gujarat, India',
+    authors: 'Nitin Shukla, Urvi Budhbhatti, Apurvasinh Puvar, Ishan Raval, Ramesh Pandit, Priyank Chavda, Anita Chauhan, Dhwani Jhala, Dhruvi Shah, Tejas Shah, and others',
+    journal: 'Microbiology Spectrum',
+    volume: '14',
+    number: '5',
+    pages: 'e01578-25',
+    year: 2026,
+    publisher: 'American Society for Microbiology',
+    preview: '/images/publications/microbiology-spectrum-preview.png',
+    bibtex: `@article{shukla2026genomic,
+  title={Genomic and evolutionary characterization of Chandipura virus: a cause of the 2024 outbreak in Gujarat, India},
+  author={Shukla, Nitin and Budhbhatti, Urvi and Puvar, Apurvasinh and Raval, Ishan and Pandit, Ramesh and Chavda, Priyank and Chauhan, Anita and Jhala, Dhwani and Shah, Dhruvi and Shah, Tejas and others},
+  journal={Microbiology Spectrum},
+  volume={14},
+  number={5},
+  pages={e01578--25},
+  year={2026},
+  publisher={American Society for Microbiology}
+}`
+},
     {
         id: 'shukla2026longitudinal',
         title: 'Longitudinal wastewater virome surveillance unveils untapped circulating viruses in the community',
